@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date? | Urvish Patel</title>
+    <link rel="stylesheet" href="styledate.css">
+
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://ik.imagekit.io/urvish/Urvish's%20Logo_yGTYkPWgU?updatedAt=1697289324289">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://ik.imagekit.io/urvish/Urvish's%20Logo_yGTYkPWgU?updatedAt=1697289324289">
+
+    <!-- Primary Meta Tags -->
+    <title>Ask your crush for a date</title>
+    <meta name="title" content="Ask your crush for a date" />
+    <meta name="description"
+        content="Ask your crush for a date with this simple website. Defiantly she will not reject you" />
+    <meta property="og:image" content="https://ik.imagekit.io/urvish/Urvish.svg?updatedAt=1693120807755" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://crush-date.vercel.app/" />
+    <meta property="og:title" content="Ask your crush for a date" />
+    <meta property="og:description"
+        content="Ask your crush for a date with this simple website. Defiantly she will not reject you" />
+    <meta property="og:image" content="https://ik.imagekit.io/urvish/Urvish.svg?updatedAt=1693120807755" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://crush-date.vercel.app/" />
+    <meta property="twitter:title" content="Ask your crush for a date" />
+    <meta property="twitter:description"
+        content="Ask your crush for a date with this simple website. Defiantly she will not reject you" />
+    <meta property="twitter:image" content="https://ik.imagekit.io/urvish/Urvish.svg?updatedAt=1693120807755" />
+</head>
+
+<body onload="init()">
+    <div id="transitionOverlay" class="transition-overlay"></div>
+
+    <div class="container">
+        <div>
+            <h1 class="ask">
+                DO YOU WANNA GO ON A DATE WITH ME ?
+            </h1>
+        </div>
+
+        <div class="gif_container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
+                alt="Cute animated illustration">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()" ontouchstart="moveButton()">No</button>
+        </div>
+
+        <div id="urvishPatel" class="urvishPatel">Made with love by
+            <a href="https://www.instagram.com/urvish.xyz/" target="_blank"><span>Urvish Patel</span><span
+                    style="font-weight: bolder; color: red;">
+                    &#9829;</span></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
